@@ -1,8 +1,22 @@
-<style>
-h1{
+h2{
     color:red;
+    background-color:#eee;
 }
+
+p{
+    color:black;
+    background-color:#eee;
+    font-weight: lighter;
+}
+
+span {
+    font-weight: 700;
+}
+
 body{
-    background-color:#000;
+    background-color:#eee;
 }
-</style>
+
+a{
+    color: red
+}
