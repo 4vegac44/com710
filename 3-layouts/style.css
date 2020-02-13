@@ -14,9 +14,14 @@ div{
 
 h2{
     color:red;
+    background-color: white;
 }
 
-ul{
+div2{
+    background-color: white;
+}
+
+nav{
     background-color:red;
     padding: 20px;
     margin: 10px;
