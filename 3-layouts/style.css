@@ -1,1 +1,23 @@
+h1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
 
+p{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+div{
+    background-color:#eee;
+}
+
+h2{
+    color:red;
+}
+
+ul{
+    background-color:red;
+    padding: 20px;
+    margin: 10px;
+}
