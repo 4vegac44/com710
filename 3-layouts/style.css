@@ -1,5 +1,6 @@
 body{
   font-family: Sans-serif;
+  background-color: #eee;
 }
 
 h1{
@@ -13,16 +14,46 @@ p{
 
 div{
     background-color:#eee;
+    padding-bottom: 8px;
+}
+
+main{
+  border: 5px solid pink;
+  background-color: white;
+  margin-right: 20px;
+  margin-left: auto;
+  float: right;
+  width: 70%;
+}
+
+aside{
+  display: block;
+  float: left;
+  width: 140px;
+}
+
+footer{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 90%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+
 }
 
 h2{
+    font-size: 18;
     color:red;
-    background-color: white;
+    padding-left: 10px;
 }
 
-
-div2{
-    background-color: white;
+p2{
+  font-size: 14;
+  padding: 10px;
+  padding-top: 0px;
+  display: block;
 }
 
 ul{
@@ -47,3 +78,23 @@ li a {
 li a.active {
   background-color:red;
 }
+
+ul2{
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+li2 {
+  display: block;
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: white;
+  border: 11px solid #eee;
+  float: left;
+}
+
+]
