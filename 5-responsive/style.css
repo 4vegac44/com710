@@ -1,6 +1,7 @@
 body{
     font-family: Sans-serif;
     background-color: #eee;
+    margin:20px;
   }
   
   h1{
@@ -12,28 +13,22 @@ body{
       padding-left: 20px;
   }
   
-  div{
-      background-color:#eee;
-      padding-bottom: 8px;
-  }
   
   main{
     border: 5px solid pink;
     background-color: white;
     width: 70%;
-    padding-left: 80px;
-    margin-left: 200px;
+    padding-left: 8px;
+    margin-left: 20px;
   }
   
   aside{
     display: block;
+    padding: 10px;
     }
   
   footer{
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 90%;
+    margin: 10px;
     background-color: grey;
     color: white;
     text-align: center;
@@ -41,8 +36,9 @@ body{
   
   h2{
       font-size: 18;
-      color:red;
+      color: black;
       padding-left: 10px;
+      padding-top: 10px;
   }
   
   p2{
@@ -52,7 +48,7 @@ body{
     display: block;
   }
   
-  ul{
+  header ul{
     list-style-type: none;
     margin: 20px;
     padding: 0;
@@ -60,15 +56,19 @@ body{
     background-color: black;
   }
 
-  ul2{
+  header ul li{
+      display: inline-block;
+  }
+
+  main ul{
     list-style-type: none;
-    margin: 10px;
+    margin: 50px;
     overflow: hidden;
     background-color: #eee;
   }
     
    
-  li a{
+  header ul li a{
     display: block;
     color: white;
     padding: 8px;
@@ -80,7 +80,7 @@ body{
   }
   
   
-  li2{
+  main li{
     display: block;
     width: 100%;
     padding-left: 10px;
